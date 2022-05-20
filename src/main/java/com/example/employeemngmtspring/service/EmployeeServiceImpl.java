@@ -1,7 +1,7 @@
 package com.example.employeemngmtspring.service;
 
 import com.example.employeemngmtspring.model.Employee;
-import com.example.employeemngmtspring.service.repository.EmployeeRepository;
+import com.example.employeemngmtspring.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -38,6 +38,11 @@ public class EmployeeController {
         return "redirect:/";
     }
 
+    @GetMapping("/login")
+    public String loginPage() {
+        return "login2";
+    }
+
     @GetMapping("/showFormForUpdate/{id}")
     public String showFormForUpdate(@PathVariable( value = "id") long id, Model model){
         //get employee from employeeService

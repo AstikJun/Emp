@@ -1,4 +1,4 @@
-package com.example.employeemngmtspring.service.repository;
+package com.example.employeemngmtspring.repository;
 
 
 import com.example.employeemngmtspring.model.Employee;
